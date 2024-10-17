@@ -6,5 +6,4 @@ for line in sys.stdin:
         ans += int(lie)
     except:
         ans += float(line)
-
 print(ans)
